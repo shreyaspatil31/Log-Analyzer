@@ -68,16 +68,8 @@ Suspicious Activity Detected:
 - IP Address: 203.0.113.5 (Repeated failed login attempts)
 - IP Address: 192.168.1.100 (Repeated failed login attempts)
 ```
+![image](https://github.com/user-attachments/assets/3f000456-42d3-4887-b645-d215a3e75416)
 
----
-
-## File Structure
-```
-project/
-│
-├── VRV_Security.py        # Main Python script
-├── requirements.txt       # List of dependencies (if applicable)
-└── README.md              # Documentation file
 ```
 
 ---
