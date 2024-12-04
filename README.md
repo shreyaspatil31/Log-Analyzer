@@ -18,7 +18,6 @@ The script processes log files with entries in the following format:
 
 ```
 <IP Address> - - [<Date>] "<HTTP Method> <Endpoint> <HTTP Version>" <Status Code> <Size> "<Additional Info>"
-```
 
 ### Example Log Entries
 192.168.1.1 - - [03/Dec/2024:10:12:34 +0000] "GET /home HTTP/1.1" 200 512
