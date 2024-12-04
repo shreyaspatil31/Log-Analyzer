@@ -1,5 +1,3 @@
-```
-```
 # VRV Security Log Analyzer
 
 ## Overview
