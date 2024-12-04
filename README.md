@@ -1,4 +1,4 @@
-```markdown
+```
 ```
 # VRV Security Log Analyzer
 
@@ -24,6 +24,7 @@ The script processes log files with entries in the following format:
 ### Example Log Entry
 192.168.1.1 - - [03/Dec/2024:10:12:34 +0000] "GET /home HTTP/1.1" 200 512
 203.0.113.5 - - [03/Dec/2024:10:12:35 +0000] "POST /login HTTP/1.1" 401 128 "Invalid credentials"
+```
 ```
 
 ---
