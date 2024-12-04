@@ -5,7 +5,7 @@
 The **VRV Security Log Analyzer** is a Python script designed to process web server log files, analyze request patterns, and identify potential security issues such as suspicious activity, brute force attempts, and frequently accessed endpoints.
 
 ---
-```
+
 ## Features
 - **Request Count per IP Address**: Counts the number of requests made by each IP address.
 - **Most Frequently Accessed Endpoint**: Identifies the most accessed endpoint.
@@ -19,16 +19,15 @@ The script processes log files with entries in the following format:
 ```
 <IP Address> - - [<Date>] "<HTTP Method> <Endpoint> <HTTP Version>" <Status Code> <Size> "<Additional Info>"
 ```
+
+### Example Log Entries
 ```
-```
-### Example Log Entry
 192.168.1.1 - - [03/Dec/2024:10:12:34 +0000] "GET /home HTTP/1.1" 200 512
 203.0.113.5 - - [03/Dec/2024:10:12:35 +0000] "POST /login HTTP/1.1" 401 128 "Invalid credentials"
 10.0.0.2 - - [03/Dec/2024:10:12:36 +0000] "GET /about HTTP/1.1" 200 256
 ```
 
 ---
-```
 
 ## Installation
 
@@ -38,7 +37,7 @@ The script processes log files with entries in the following format:
    cd <repository_directory>
    ```
 
-2. **Set Up Python Environment**
+2. **Set Up Python Environment**  
    Ensure you have Python 3.x installed on your system.
 
    ```bash
@@ -55,6 +54,7 @@ The script processes log files with entries in the following format:
 ---
 
 ## Output
+
 ### Sample Output
 ```plaintext
 IP Address Request Counts:
@@ -71,6 +71,8 @@ Suspicious Activity Detected:
 - IP Address: 203.0.113.5 (Repeated failed login attempts)
 - IP Address: 192.168.1.100 (Repeated failed login attempts)
 ```
+
+---
 
 ## Contributing
 Feel free to contribute to this project by creating a pull request or submitting an issue.
