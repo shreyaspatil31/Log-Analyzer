@@ -71,7 +71,7 @@ Suspicious Activity Detected:
 ![image](https://github.com/user-attachments/assets/3f000456-42d3-4887-b645-d215a3e75416)
 
 ```
-
+```
 ---
 
 ## Enhancements (Future Scope)
